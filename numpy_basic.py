@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 #konversi pandas dataset menjadi numpy array, pertama kita konversi fare dulu
