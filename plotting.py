@@ -7,7 +7,8 @@ plt.scatter(df['Age'],df['Fare'])
 plt.xlabel('Age');plt.ylabel('Fare')
 #Kasih nama biar ga bingung
 plt.scatter(df['Age'],df['Fare'],c=df['Pclass'])
-#c itu ngasih warna
+#c itu ngasih warna (colour)
+#s itu ngasih ukuran (size)
 plt.plot([0, 80], [85, 5])
 #ngasih garis dari x1 y1 ke x2 y2
 plt.show()
