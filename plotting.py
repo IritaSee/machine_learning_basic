@@ -10,3 +10,5 @@ plt.scatter(df['Age'],df['Fare'],c=df['Pclass'])
 #c itu ngasih warna
 plt.plot([0, 80], [85, 5])
 #ngasih garis dari x1 y1 ke x2 y2
+plt.show()
+#tampilkan
