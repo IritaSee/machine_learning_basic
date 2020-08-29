@@ -15,7 +15,7 @@ model.fit(X,y)
 print (model.predict(X[:5]))
 print (y[:5])
 #accuracy score:
-y_pred=model.predict(y) #y_pred isi dari semua prediksi dari target which is y
+y_pred=model.predict(X) #y_pred isi dari semua prediksi dari target which is y
 totalTrue = (y==y_pred).sum()
 print (totalTrue)
 totalPassenger = y.shape[0]
